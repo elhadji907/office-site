@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'bf899f18e784e3f6bed6be2e1d93871b008dfce6',
+        'reference' => 'fe9940feaaf46584c9eca151251793ed72250a1d',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -71,6 +71,15 @@
             'install_path' => __DIR__ . '/../../themes/contrib/adminimal_theme',
             'aliases' => array(),
             'reference' => '8.x-1.6',
+            'dev_requirement' => false,
+        ),
+        'drupal/contact_us' => array(
+            'pretty_version' => '2.2.0',
+            'version' => '2.2.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/contact_us',
+            'aliases' => array(),
+            'reference' => '8.x-2.2',
             'dev_requirement' => false,
         ),
         'drupal/core' => array(
@@ -274,7 +283,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'bf899f18e784e3f6bed6be2e1d93871b008dfce6',
+            'reference' => 'fe9940feaaf46584c9eca151251793ed72250a1d',
             'dev_requirement' => false,
         ),
         'drupal/tara' => array(
